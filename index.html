@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <h1>Santa is coming to town!!!</h1>
+  </header>
+
+  <!-- Аудио -->
+  <div class="audio-controls">
+    <audio id="audio" src="Let It Snow - Dean Martin.mp3" loop></audio>
+    <button id="btn" aria-label="Play music">
+      <img src="https://img.icons8.com/dotty/80/000000/google-play.png" alt="Play">
+    </button>
+    <button id="pause" aria-label="Pause music">
+      <img src="https://img.icons8.com/dotty/80/000000/pause.png" alt="Pause">
+    </button>
+  </div>
+
+  <!-- Таймер до Рождества -->
+  <main class="timer-section" aria-label="Countdown Timer">
+    <section class="container">
+      <div class="cris">
+        <div class="block">
+          <h4 class="days"></h4>
+          <h3>Days</h3>
+        </div>
+      </div>
+
+      <div class="cris">
+        <div class="block">
+          <h4 class="hours"></h4>
+          <h3>Hours</h3>
+        </div>
+      </div>
+
+      <div class="cris">
+        <div class="block">
+          <h4 class="minutes"></h4>
+          <h3>Minutes</h3>
+        </div>
+      </div>
+
+      <div class="cris">
+        <div class="block">
+          <h4 class="seconds"></h4>
+          <h3>Seconds</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Эффекты снега -->
+  <div id="particles-js"></div>
+
+  <!-- Скрипты -->
+ <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
