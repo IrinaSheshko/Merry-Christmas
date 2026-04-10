@@ -14,7 +14,7 @@ function merryChristmas() {
 
 // ======== Таймер ========
 function christmasCountdown() {
-    const christmasDate = new Date(new Date().getTime() + 60*1000);
+    const christmasDate = new Date("2026-12-25T00:00:00");
     const now = new Date();
     const diff = christmasDate - now;
 
